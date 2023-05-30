@@ -8,7 +8,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -21,11 +21,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -38,7 +38,7 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       }
     ]
   },
@@ -51,7 +51,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -64,11 +64,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -81,7 +81,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -95,7 +95,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -108,11 +108,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -125,7 +125,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -138,7 +138,7 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       }
     ]
   },
@@ -151,7 +151,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -164,11 +164,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -181,7 +181,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -194,7 +194,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -207,11 +207,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -224,7 +224,7 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       }
     ]
   },
@@ -237,7 +237,7 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       }
     ]
   },
@@ -250,11 +250,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -267,7 +267,7 @@ const employees = [
     social: [
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -280,11 +280,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -297,11 +297,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
@@ -314,7 +314,7 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       }
     ]
   },
@@ -327,11 +327,11 @@ const employees = [
     social: [
       {
         link: "https://twitter.com/",
-        icon: "./images/icons/twitter.png"
+        icon: "../images/icons/twitter.png"
       },
       {
         link: "https://www.linkedin.com/",
-        icon: "./images/icons/linkedin.png"
+        icon: "../images/icons/linkedin.png"
       }
     ]
   },
