@@ -1,0 +1,288 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Typography */
+
+h1 {
+    font-family: 'Calistoga', cursive;
+    font-size: 2.5rem;
+    font-style: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.125rem;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    color: #4D4D4D;
+    font-size: .9rem;
+    text-align: center;
+    margin: .5em 0 0;
+}
+
+p {
+    font-size: .8rem;
+    line-height: 1.5em;
+    margin: .5em 0;
+}
+
+
+/* Header */
+
+header {
+    background-image: url('./images/background/header-bg.png');
+    background-size: cover;
+}
+
+.header-wrapper {
+    background: linear-gradient(180deg, #319E97 0%, rgba(49, 158, 151, 0) 59.9%, rgba(49, 158, 151, 0) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 3em 0;
+    text-shadow: 0 1px 2px #000000E6;
+}
+
+.header__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    margin-top: 1em;
+}
+
+.select-menu,
+.search-field {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 3px 16px #000000B3;
+    outline-color: #319E97;
+    box-sizing: border-box;   
+}
+
+.select-menu {
+    padding: .5em .75em;
+    width: 206px;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    appearance: none;
+    background: #fff url('./images/icons/vector.png');
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 95% 50%;
+}
+
+.search-field {
+    padding: .5em .75em;
+}
+
+.select-menu:hover,
+.select-menu:focus,
+.select-menu:active,
+.search-field:hover,
+.search-field:focus,
+.search-field:active {
+    border: 2px solid #319E97;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+/* Main */
+
+main {
+    padding: 1em;
+}
+
+.employees-container {
+    display: grid;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.employee-card {
+    display: grid;
+    background-color: #fff;
+    width: 250px;
+    margin: 1em auto;
+    padding: 1em 1.5em;
+    border: 1px solid #EAEAEA;
+    border-radius: .3em;
+}
+
+.employee__img {
+    width: 130px;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+}
+
+.employee__social-wrapper {
+    margin: 0 auto;
+}
+
+.social-icon {
+    margin: 0 .25em;
+}
+
+
+/* Media queries */
+
+@media (min-width: 400px) {
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: .9rem;
+    }
+    
+    .employee-card {
+        width: 300px;
+        padding: 1em 2.5em;
+    }
+}
+
+
+@media (min-width: 550px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    
+    .header__bottom {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        gap: 1em;
+    }
+    
+    .employees-container {
+        grid-template-columns: repeat(2, auto);
+        gap: 1em;
+    }
+    
+    .employee-card {
+        width: 200px;
+        padding: 1em 1.5em;
+    }
+}
+
+@media (min-width: 650px) {
+    .header-wrapper {
+        padding: 4em 0;
+    }
+    
+    .employees-container {
+        gap: 1.5em;
+    }
+    
+    .employee-card {
+        width: 250px;
+    }
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.375rem;
+    }
+    
+    h3 {
+        font-size: 1.125rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .employees-container {
+        gap: 2.5em;
+    }
+}
+
+@media (min-width: 950px) {
+    h1 {
+        font-size: 3.25rem;
+    }
+    
+    .header-wrapper {
+        padding: 5em 0;
+    }
+    
+    .header__bottom {
+        font-size: 1.125rem;
+        gap: 2em;
+    }
+    
+    .input--select {
+        font-size: 1.125rem;
+    }
+    
+    .employees-container {
+        grid-template-columns: repeat(3, auto);
+        gap: 1em;
+    }
+}
+
+@media (min-width: 1100px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    .employees-container {
+        gap: 3em;
+    }
+}
+
+@media (min-width: 1250px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+    }
+    
+    .header-wrapper {
+        padding: 6em 0;
+    }
+    
+    .employees-container {
+        grid-template-columns: repeat(4, auto);
+        gap: 1em;
+    }
+}
