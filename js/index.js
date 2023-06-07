@@ -96,13 +96,13 @@ function getFirstEmployee(teamMembers) {
 
     const socialHtml = item.social.map(social => {
         return `
-            <a href="${social.link}" target="_blank"><img src="${social.icon}" class="social-icon" alt="${social.link}"></a>
+            <a href={social.link} target="_blank"><img src={social.icon} class="social-icon" alt={social.link}></a>
         `
     }).join('') 
 
     employeesHtml += `
             <div class="employee-card">
-                <img src="../images/photos/${item.image}" class="employee__img" alt="${item.name}">
+                <img src=`../images/photos/${item.image}` class="employee__img" alt="${item.name}">
                 <h2 class="employee__name">${item.name}</h2>
                 <h3 class="employee__title">${item.title}</h3>
                 <p class="employee__bio">${item.bio}</p>
