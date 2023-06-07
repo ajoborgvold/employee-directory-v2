@@ -1,6 +1,6 @@
 import employees from './employees.js'
 
-console.log(employees)
+// console.log(employees)
 
 const employeesContainer = document.getElementById('employees-container')
 const selectMenu = document.getElementById('select-menu')
