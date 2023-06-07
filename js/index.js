@@ -102,7 +102,7 @@ function getFirstEmployee(teamMembers) {
 
     employeesHtml += `
             <div class="employee-card">
-                <img src=`../images/photos/${item.image}` class="employee__img" alt="${item.name}">
+                // <img src=`../images/photos/${item.image}` class="employee__img" alt="${item.name}">
                 <h2 class="employee__name">${item.name}</h2>
                 <h3 class="employee__title">${item.title}</h3>
                 <p class="employee__bio">${item.bio}</p>
