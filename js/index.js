@@ -27,7 +27,8 @@ for (let i = 0; i < selectOptions.length; i++) {
 
 
 //----- Display all employees when the page loads -----//
-getEmployeesHtml(employees)
+// getEmployeesHtml(employees)
+getFirstEmployee(employees)
 
 
 //----- Filter employees using select menu/search field -----//
@@ -90,9 +91,29 @@ function getEmployeesHtml(teamMembers) {
             </div>
         `
     })
-    renderEmployees()
+    // renderEmployees()
 }
 
+function getFirstEmployee(teamMembers) {
+    const item = teamMembers[0]
+
+    const socialHtml = item.social.map(social => {
+        return `
+            <a href={social.link} target="_blank"><img src={social.icon} class="social-icon" alt={social.link}></a>
+        `
+    }).join('') 
+
+    employeesHtml += `
+            <div class="employee-card">
+                // <img src=`../images/photos/${item.image}` class="employee__img" alt="${item.name}">
+                <h2 class="employee__name">${item.name}</h2>
+                <h3 class="employee__title">${item.title}</h3>
+                <p class="employee__bio">${item.bio}</p>
+                <div class="employee__social-wrapper">${socialHtml}</div>
+            </div>
+        `
+    renderEmployees()
+}
 
 function renderEmployees() {
     employeesContainer.innerHTML = employeesHtml
