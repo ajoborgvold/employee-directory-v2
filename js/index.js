@@ -76,7 +76,7 @@ function getEmployeesHtml(teamMembers) {
         
         const socialHtml = item.social.map(social => {
             return `
-                <a href="${social.link}" target="_blank"><img src="${social.icon}" class="social-icon" alt="${social.link}"></a>
+                <a href="${social.link}" target="_blank"><img src=${social.icon} class="social-icon" alt="${social.link}"></a>
             `
         }).join('') 
         
