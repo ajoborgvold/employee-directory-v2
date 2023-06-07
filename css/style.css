@@ -41,8 +41,7 @@ p {
 /* Header */
 
 header {
-    /* background-image: url('../images/background/header-bg.png'); */
-    background-image: url('../images/photos/abdulkareem.jpg');
+    background-image: url('../images/background/header-bg.png');
     background-size: cover;
 }
 
@@ -80,8 +79,7 @@ header {
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
     appearance: none;
-    /* background: #fff url('../images/icons/vector.png'); */
-    background: #fff url('../images/icons/linkedin.png');
+    background: #fff url('../images/icons/vector.png');
     background-repeat: no-repeat;
     background-size: 1em;
     background-position: 95% 50%;
